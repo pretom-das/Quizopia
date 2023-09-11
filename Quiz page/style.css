@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #23242F;
+    color: #fff;
+}
+h1{
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+img{
+
+    border-radius: 10px;
+    padding: 5px;
+    width: 492px;
+    max-width: 100%;
+    height: 230px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#question {
+    font-size: 24px;
+    width: 492px;
+    height: 66px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#choseaoption{
+    width: 340px;
+    height: 22px;
+    font-size: 16px;
+    color: #FFFFFF80;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    font-size: 22px;
+    margin: 10px 10px;
+    width: 500px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #31334B;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #fff;
+}
+
+.option:hover {
+    background-color: #F25A97;
+}
+
+#next-button {
+    padding: 10px 20px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+#participent {
+   margin-top: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#participent p{
+    color: rgb(229, 240, 240);
+    text-align: left;
+    margin-left: 10%;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+hr{
+    margin-top: 100px;
+    width: 80%;
+    margin-bottom: -90px;
+}
+
+#participent button{
+    background-color: #31334B;
+    border: none;
+    margin-right: 10%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 600px) {
+h1{
+    width: 136px;
+    height:34px;
+    font-size: 28px;
+    font-weight: 500;
+}
+  
+img{
+    width: 300px;
+    height: 140px;
+}
+
+#question {
+    font-size: 20px;
+    width: 340px;
+    height: 54px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    font-size: 16px;
+    width: 340px;
+    height: 50px;
+}
+
+#next-button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+}
+}
